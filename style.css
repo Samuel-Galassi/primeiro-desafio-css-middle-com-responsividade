@@ -1,0 +1,141 @@
+* { font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 50px 48px;
+    }
+
+    .link-header {
+        width: 87px;
+        height: 20px;
+        top: 47px;
+        left: 42px;
+     font-weight: 400px;
+    font-size: 14px;
+    line-height: 100%;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 23px;
+    margin-left: 20px;
+}
+.logo-image {
+    width: 595.18px;
+    height: 500px;
+    top: 246px;
+    left: 121px;
+    display: inline-block;
+    margin-left: 150px;
+    
+}
+section {
+    display: inline-block;
+    font-size: 400;
+   
+    }
+
+.button-header {
+   background: #4CB538;
+   border-radius: 6px;
+   width: 124px;
+   height: 51px;
+   border: none;
+   font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #fff;
+    cursor: pointer;
+}
+h1 {
+font-weight: 700;
+font-size: 62px;
+line-height: 82px;
+letter-spacing: 0.6px;
+margin-left: 70px;
+color: #161a49;
+}
+
+p{
+font-weight: 400;
+font-size: 20px;
+width: 493px;
+height: 99px;
+margin-left: 70px;
+
+
+
+}
+
+.button-main  {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6fbf44;
+    cursor: pointer;
+    margin-top: 32px;
+    margin-left: 70px;
+    
+
+}
+
+@media screen and (max-width: 450px) {
+   
+   section{
+    display: block;
+    position: absolute;
+    top: 111px;
+
+        }
+
+
+    h1{
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        width: 278px;
+        height: 60px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 19px;
+        line-height: 33px;
+        width: 304px;
+        height: 165px;
+        text-align: center;
+    }
+
+    .button-header{
+        position: absolute;
+        left: 255px;
+        top: 19px;
+            }
+
+
+    .button-main{
+        font-size: 19px;
+        line-height: 100%;
+        position: absolute;
+        left: 88px;
+        top: 230px;
+    }
+
+    .logo-image{
+        width: 312px;
+        height: 288px;
+        display: inline-block;
+        margin: 0 -70px;
+        position: absolute;
+        top: 470px;
+    }
+
+    .link-header{
+        margin: 0;
+        display: none;
+
+    }
+}
